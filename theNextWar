@@ -1,0 +1,33 @@
+play_more=True
+while play_more:
+    print('you are a soldier in the monster war. can you survive? ')
+    selection = int(input('what position do you take,1 frontline or 2 rear guard.'))
+    if selection == 1: 
+        print('you load your laser rifle and attack but you are killed by a werewolf. THE END')
+    if selection == 2:
+        print('you take your position, the front line troops are deystroyed but kill most of the monsters')
+    if selection == 1: break
+    select =int(input('do you 3 go on a scouting mission or 4 march with the army .'))
+    if select == 3:
+            print('you creep into a houce and grab a bag of food but a mutant kills you. THE END')
+    if select==4 :
+            print('you march for days until you reach the sea thousands of monsters are waiting for the army.')
+    if select == 3: break
+    dinoforce = int(input(' what weapon do you take 5 a automatic rifle or 6 rifle'))
+    if dinoforce == 5:
+                print('you rush into battle and open fire you quickly blast away monsters.')
+    if dinoforce== 6:
+                print('you charge ahead rifle ready you cannot fire fast enough and are killed. THE END')
+    if dinoforce == 6: break
+    bob = int(input('what do you do, 7 march on the last monster army or 8 go home'))
+    if bob == 7:
+                    print('you bravely attack on the front line and kill a ton of enemys you survived the war. GOOD JOB, YOU WON THE GAME')
+    if bob == 8:
+                    print ('you join a group of soldiers going home but you are attacked by enemys and killed. THE END.')
+    if bob == 8: break
+    uinput = input ('type y if you want to play agian or q if you want to quit ')
+    play_more =uinput.lower() == 'y'
+    if uinput =='q':
+        break
+    if uinput =='a':
+        print ('GOOD JOB YOU FOUND THE EASTER EGG OF MY GAME')
